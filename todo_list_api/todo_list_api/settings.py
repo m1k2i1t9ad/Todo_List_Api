@@ -28,7 +28,7 @@ DEBUG = True
 
 
 ALLOWED_HOSTS = [
-    'todo-list-api-ccec.onrender.com',  # Add your Render domain here
+    'todo-list-api-rkpa.onrender.com',  # Add your Render domain here
     'localhost',
     '127.0.0.1',
     '.onrender.com',  # Optional: to allow all subdomains of onrender.com
