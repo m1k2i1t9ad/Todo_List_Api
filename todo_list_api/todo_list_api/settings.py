@@ -26,8 +26,13 @@ SECRET_KEY = 'django-insecure-79blsb5__io#qehoxq4nyh1rqqq@76ao+p-p-l=ib6vxsqhog+
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
 
+ALLOWED_HOSTS = [
+    'todo-list-api-ccec.onrender.com',  # Add your Render domain here
+    'localhost',
+    '127.0.0.1',
+    '.onrender.com',  # Optional: to allow all subdomains of onrender.com
+]
 
 # Application definition
 
