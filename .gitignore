@@ -1,0 +1,27 @@
+*.pyc
+/env
+
+# Python
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Django
+*.log
+staticfiles/
+media/
+
+# Virtualenv
+env/
+venv/
+
+# OS
+.DS_Store
+
+# Render
+build.sh
+
+# Migrations (optional to exclude if you want clean initial DB setup)
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
