@@ -22,6 +22,23 @@ python -m venv env && source env/bin/activate
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
+```
 
 
+📦 API Endpoints
+
+Method	Endpoint	Description
+
+GET	/api/todos/	List user todos
+
+POST	/api/todos/	Create a new todo
+
+GET	/api/todos/<id>/	Get a specific todo
+
+PUT	/api/todos/<id>/	Update a todo
+
+DELETE	/api/todos/<id>/	Delete a todo
+
+📄 License
+MIT License
 
